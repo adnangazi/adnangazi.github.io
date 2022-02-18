@@ -1,0 +1,2 @@
+ErrorDocument 404 /BoraBoraFitnessClub/404.html
+ErrorDocument 500 /BoraBoraFitnessClub/500.html
