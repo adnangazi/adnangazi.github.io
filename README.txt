@@ -1,7 +1,7 @@
 Directory Structure
 -------------------
 css\              - Stylesheets CSS files for the template.
-images\           - Images used in template.
+resourses/images\           - resourses/images used in template.
 scripts\          - JavaScript used in the template.
 styles\           - SCSS source files for stylesheets CSS. Available in Purchased versions only.
 favicon.ico       - Favicon placeholder provided for the template.
@@ -27,9 +27,9 @@ If you have purchased any of the premium version then you will also get
 SCSS source files which generates all the styles of the template.
 You can use these SCSS files to make your changes and regenerate CSS.
 
-3. Changing Images
+3. Changing resourses/images
 
-You can change images inside the images\ folder.
+You can change resourses/images inside the resourses/images\ folder.
 Make sure to name the file same as the original file.
 If you wish to change the name of the image file then you must
 also make corresponding change in the HTML file which refer to that image.

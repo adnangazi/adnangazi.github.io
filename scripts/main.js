@@ -45,7 +45,7 @@
    */
   var elem = document.querySelector('.grid');
   if(elem) {
-    imagesLoaded(elem, function() {
+    resourses/imagesLoaded(elem, function() {
       new Masonry(elem, {
         itemSelector: '.grid-item',
         percentPosition: true,
@@ -55,7 +55,7 @@
   }
 
   /**
-   * Big Picture Popup for images and videos
+   * Big Picture Popup for resourses/images and videos
    */
    document.querySelectorAll("[data-bigpicture]").forEach((function(e) {
      e.addEventListener("click", (function(t){
