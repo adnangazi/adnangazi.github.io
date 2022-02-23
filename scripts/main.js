@@ -91,9 +91,5 @@
   }))
 
   // Add your javascript here
-  window.onscroll = scrollFunction;
-  function scrollFunction() {
-    document.getElementById("menuButton").click;
-  }
 
 })();

@@ -87,7 +87,7 @@ html {
   transform-origin: top;
   -webkit-animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
           animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-  background-image: url("../resources/images/wave-bg.svg");
+  background-image: url("../resources/wave-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -245,7 +245,7 @@ footer a:not(.nav-link) {
   position: absolute;
   bottom: -25px;
   right: -30px;
-  background-image: url("../resources/images/marker.svg");
+  background-image: url("../resources/marker.svg");
   background-repeat: no-repeat;
 }
 
@@ -281,4 +281,16 @@ footer a:not(.nav-link) {
 
 a {
   text-decoration: none;
+}
+
+#contactMe {
+  margin: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+#profilePic {
+  margin-top: 6rem !important;
 }
