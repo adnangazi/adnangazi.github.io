@@ -828,7 +828,7 @@ url("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("wof
 .bi-image-alt::before { content: "\f428"; }
 .bi-image-fill::before { content: "\f429"; }
 .bi-image::before { content: "\f42a"; }
-.bi-resourses/images::before { content: "\f42b"; }
+.bi-resources/images::before { content: "\f42b"; }
 .bi-inbox-fill::before { content: "\f42c"; }
 .bi-inbox::before { content: "\f42d"; }
 .bi-inboxes-fill::before { content: "\f42e"; }

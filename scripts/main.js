@@ -40,12 +40,14 @@
     }
   };
 
+
+
   /**
    * Masonry Grid
    */
   var elem = document.querySelector('.grid');
   if(elem) {
-    resourses/imagesLoaded(elem, function() {
+    resources/imagesLoaded(elem, function() {
       new Masonry(elem, {
         itemSelector: '.grid-item',
         percentPosition: true,
@@ -55,7 +57,7 @@
   }
 
   /**
-   * Big Picture Popup for resourses/images and videos
+   * Big Picture Popup for resources/images and videos
    */
    document.querySelectorAll("[data-bigpicture]").forEach((function(e) {
      e.addEventListener("click", (function(t){
@@ -89,6 +91,9 @@
   }))
 
   // Add your javascript here
-
+  window.onscroll = scrollFunction;
+  function scrollFunction() {
+    document.getElementById("menuButton").click;
+  }
 
 })();
